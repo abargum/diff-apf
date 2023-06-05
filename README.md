@@ -1,7 +1,7 @@
 # Diff-APF
 **Differentiable Allpass Filters for Phase Response Estimation and Automatic Signal Alignment**
 
-This is the official PyTorch exemplification repository of ***Bargum et al.* (Aalborg University), [Diff APF](https://arxiv.org/abs/2306.00860)**.
+This is the official PyTorch *exemplification* repository of ***Bargum et al.* (Aalborg University), [Diff APF](https://arxiv.org/abs/2306.00860)**.
 
 Audio samples can be heard through the link below!
 
