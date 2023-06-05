@@ -20,13 +20,10 @@ Virtual analog (VA) audio effects are increasingly based on neural networks and 
 
 ## References and Building Blocks
 
-- *J. Steinmetz and J. D. Reiss, “auraloss: Audio focused loss functions in PyTorch,” in Digital Music Research
-Network One-day Workshop (DMRN+15), 2020.
-- *G. Pepe, L. Gabrielli, S. Squartini, C. Tripodi, and N. Strozzi, “Deep optimization of parametric IIR filters
-for audio equalization,” IEEE/ACM Transactions on Audio, Speech, and Language Processing, vol. 30, pp.
-1136–1149, 2022.
-- *Kuznetsov, J. D. Parker, and F. Esqueda, “Differentiable IIR filters for machine learning applications,” in
-Proc. Intl. Conf. Digital Audio Effects, 2020, pp. 165–172.
+- *J. Steinmetz and J. D. Reiss*, 2020, [auraloss: Audio focused loss functions in PyTorch] (https://github.com/csteinmetz1/auraloss)
+- *G. Pepe, L. Gabrielli, S. Squartini, C. Tripodi, and N. Strozzi*, 2022, [Deep optimization of parametric IIR filters
+for audio equalization] (https://arxiv.org/abs/2110.02077)
+- *Kuznetsov, J. D. Parker, and F. Esqueda*, 2020, [Differentiable IIR filters for machine learning applications] (https://dafx2020.mdw.ac.at/proceedings/papers/DAFx2020_paper_52.pdf)
 
 
 
