@@ -13,7 +13,7 @@ Virtual analog (VA) audio effects are increasingly based on neural networks and 
 
 ## Proposed Model
 
-<img src="model.png" width="80%">
+<img src="model.png" width="100%">
 
 The model consists of a BiasNet inspired DNN, outputting filter parameters for the coefficient calculation of different allpass filter structures. Three values, *R*, *f_c* and *a* are denormalized and fed from the output of the network to every single filter block. The primary DNN is an MLP with periodic sinusoidal activations for the hidden layers and tanh activations for the output layer.
 
