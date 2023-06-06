@@ -11,6 +11,12 @@ Audio samples can be heard through the link below!
 
 Virtual analog (VA) audio effects are increasingly based on neural networks and deep learning frameworks. Due to the underlying black-box methodology, a successful model will learn to approximate the data it is presented, including potential errors such as latency and audio dropouts as well as non-linear characteristics and frequency-dependent phase shifts produced by the hardware. The latter is of particular interest as the learned phase-response might cause unwanted audible artifacts when the effect is used for creative processing techniques such as dry-wet mixing or parallel compression. To overcome these artifacts we propose differentiable signal processing tools and deep optimization structures for automatically tuning all-pass filters to predict the phase response of different VA simulations, and align processed signals that are out of phase. The approaches are assessed using objective metrics while listening tests evaluate their ability to enhance the quality of parallel path processing techniques. Ultimately, an over-parameterized, BiasNet-based, all-pass model is proposed for the optimization problem under consideration, resulting in models that can estimate all-pass filter coefficients to align a dry signal with its affected, wet, equivalent.
 
+## Proposed Model
+
+<img src="model.png" width="100%">
+
+The model consists of a BiasNet inspired DNN, outputting filter parameters for the coefficient calculation of different allpassfilter structures. Three values, *R*, *f_c* and *a* are denomalized and fed from the output of the network to every single filter block. The primary DNN is an MLP with periodic sinusoidal activations for the hidden layers and tanh activations for the output layer.
+
 ## Notes
 
 - Clone the repository and run the notebook to either train your own models or use the pretrained models presented in the paper.
